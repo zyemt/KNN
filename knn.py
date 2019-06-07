@@ -11,7 +11,7 @@ def etc(x,y):
 def findclosest(x,x_train,y_train,k):
     count1 ={}
     grp = []
-    for i in range(len(x_train)):#对距离排序
+    for i in range(len(x_train)):#计算到各元素距离
         dist = etc(x,x_train[i])
         grp.append(dist)
     grp = np.array(grp)
