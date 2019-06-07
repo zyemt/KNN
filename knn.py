@@ -6,7 +6,7 @@ from sklearn .model_selection import train_test_split
 from sklearn.metrics import  accuracy_score
 
 def etc(x,y):
-    return distance.euclidean(x,y)
+    return distance.euclidean(x,y)#计算欧氏距离
 
 def findclosest(x,x_train,y_train,k):
     count1 ={}
